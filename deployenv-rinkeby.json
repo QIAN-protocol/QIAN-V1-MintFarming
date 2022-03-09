@@ -1,0 +1,366 @@
+{
+    "msign": {
+        "signers": ["","","","",""],
+        "threshold": 3
+    },
+    "grades": {
+        "GRADE-0": "0x7ffddfb422107d4e3d8bedac5195ac4cb4313fea03ca5787d887fbe0d6816122",
+        "GRADE-1": "0x8fd0a8bd3a3bd04c067da069a51c92870ddcc0c3ec5700eb90046edf2eba0fa2",
+        "GRADE-2": "0x73d939fd990259bd086d87c5593709e063065ae91b3ed8b3c1f4b82b43a18c7a",
+        "GRADE-3": "0xc69eba70c2eeabb30b4397e5a108268760e6adeeee75e5bf798060b550a3bcca",
+        "GRADE-4": "0xeb9de9eee8ccfe6ef27db5607e45e1be0bb329222399786fcb297722c134d64e",
+        "GRADE-5": "0xebc169af6b3e348fc2ebc269c2041c9a14e2c89c768b5fc57c8606e8e1c3e193",
+        "GRADE-6": "0x3fc534de3a2df3e1cdd6e48e6a0a41f25775d92cff93c2b89b43375959475e73",
+        "GRADE-7": "0x50488a43542a8c9e8d15449afd18a42ac53aecff5d0ad49e802b96cd5368436b",
+        "GRADE-8": "0xbb9624184f92e7d1a84f889b4ed0a63f0482f42ece8a17fe88ed31bd0f122bc5"
+    },
+    "bound": [
+        {
+            "grade": "GRADE-0",
+            "lower": "0",
+            "upper": "10000000000000000000000000"
+        },
+        {
+            "grade": "GRADE-1",
+            "lower": "10000000000000000000000000",
+            "upper": "25000000000000000000000000"
+        },
+        {
+            "grade": "GRADE-2",
+            "lower": "25000000000000000000000000",
+            "upper": "50000000000000000000000000"
+        },
+        {
+            "grade": "GRADE-3",
+            "lower": "50000000000000000000000000",
+            "upper": "100000000000000000000000000"
+        },
+        {
+            "grade": "GRADE-4",
+            "lower": "100000000000000000000000000",
+            "upper": "150000000000000000000000000"
+        },
+        {
+            "grade": "GRADE-5",
+            "lower": "150000000000000000000000000",
+            "upper": "200000000000000000000000000"
+        },
+        {
+            "grade": "GRADE-6",
+            "lower": "200000000000000000000000000",
+            "upper": "250000000000000000000000000"
+        },
+        {
+            "grade": "GRADE-7",
+            "lower": "250000000000000000000000000",
+            "upper": "300000000000000000000000000"
+        },
+        {
+            "grade": "GRADE-8",
+            "lower": "300000000000000000000000000",
+            "upper": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+        }
+    ],
+    "tokens": {
+        "ETH": "0x0000000000000000000000000000000000000000",
+        "HBTC": "0x38573ece9ef122766c610c4dd79674a99cb15b91",
+        "USDC": "0xBc497c75630e2a824faC879E5dD2E2bB5EE9aDa5",
+        "USDT": "0xaA7e28750d8BF25B86E06172f745B4a37B2C628f",
+        "YFI": "0xdC253A3A3866a577E4a6406c6F9b9D06AD7895d7",
+        "YFII": "0x1c5c327D0BA5D4d97ce6A6f7d654eA03200e4cf9",
+        "FOR": "0x87ab9c99c8bdb5a9264c7beb71fad534f950a144"
+    },
+    "rewards": [
+        {
+            "token": "ETH",
+            "grades": [
+                {
+                    "grade": "GRADE-0",
+                    "reward": "694440000000000000000"
+                },
+                {
+                    "grade": "GRADE-1",
+                    "reward": "347220000000000000000"
+                },
+                {
+                    "grade": "GRADE-2",
+                    "reward": "405090000000000000000"
+                },
+                {
+                    "grade": "GRADE-3",
+                    "reward": "462960000000000000000"
+                },
+                {
+                    "grade": "GRADE-4",
+                    "reward": "520830000000000000000"
+                },
+                {
+                    "grade": "GRADE-5",
+                    "reward": "578700000000000000000"
+                },
+                {
+                    "grade": "GRADE-6",
+                    "reward": "636570000000000000000"
+                },
+                {
+                    "grade": "GRADE-7",
+                    "reward": "694440000000000000000"
+                },
+                {
+                    "grade": "GRADE-8",
+                    "reward": "752310000000000000000"
+                }
+            ]
+        },
+        {
+            "token": "HBTC",
+            "grades": [
+                {
+                    "grade": "GRADE-0",
+                    "reward": "416670000000000000000"
+                },
+                {
+                    "grade": "GRADE-1",
+                    "reward": "208330000000000000000"
+                },
+                {
+                    "grade": "GRADE-2",
+                    "reward": "243060000000000000000"
+                },
+                {
+                    "grade": "GRADE-3",
+                    "reward": "277780000000000000000"
+                },
+                {
+                    "grade": "GRADE-4",
+                    "reward": "312500000000000000000"
+                },
+                {
+                    "grade": "GRADE-5",
+                    "reward": "347220000000000000000"
+                },
+                {
+                    "grade": "GRADE-6",
+                    "reward": "381940000000000000000"
+                },
+                {
+                    "grade": "GRADE-7",
+                    "reward": "416670000000000000000"
+                },
+                {
+                    "grade": "GRADE-8",
+                    "reward": "451390000000000000000"
+                }
+            ]
+        },
+        {
+            "token": "USDC",
+            "grades": [
+                {
+                    "grade": "GRADE-0",
+                    "reward": "277780000000000000000"
+                },
+                {
+                    "grade": "GRADE-1",
+                    "reward": "138890000000000000000"
+                },
+                {
+                    "grade": "GRADE-2",
+                    "reward": "162040000000000000000"
+                },
+                {
+                    "grade": "GRADE-3",
+                    "reward": "185190000000000000000"
+                },
+                {
+                    "grade": "GRADE-4",
+                    "reward": "208330000000000000000"
+                },
+                {
+                    "grade": "GRADE-5",
+                    "reward": "231480000000000000000"
+                },
+                {
+                    "grade": "GRADE-6",
+                    "reward": "254630000000000000000"
+                },
+                {
+                    "grade": "GRADE-7",
+                    "reward": "277780000000000000000"
+                },
+                {
+                    "grade": "GRADE-8",
+                    "reward": "300930000000000000000"
+                }
+            ]
+        },
+        {
+            "token": "USDT",
+            "grades": [
+                {
+                    "grade": "GRADE-0",
+                    "reward": "277780000000000000000"
+                },
+                {
+                    "grade": "GRADE-1",
+                    "reward": "138890000000000000000"
+                },
+                {
+                    "grade": "GRADE-2",
+                    "reward": "162040000000000000000"
+                },
+                {
+                    "grade": "GRADE-3",
+                    "reward": "185190000000000000000"
+                },
+                {
+                    "grade": "GRADE-4",
+                    "reward": "208330000000000000000"
+                },
+                {
+                    "grade": "GRADE-5",
+                    "reward": "231480000000000000000"
+                },
+                {
+                    "grade": "GRADE-6",
+                    "reward": "254630000000000000000"
+                },
+                {
+                    "grade": "GRADE-7",
+                    "reward": "277780000000000000000"
+                },
+                {
+                    "grade": "GRADE-8",
+                    "reward": "300930000000000000000"
+                }
+            ]
+        },
+        {
+            "token": "YFII",
+            "grades": [
+                {
+                    "grade": "GRADE-0",
+                    "reward": "277780000000000000000"
+                },
+                {
+                    "grade": "GRADE-1",
+                    "reward": "138890000000000000000"
+                },
+                {
+                    "grade": "GRADE-2",
+                    "reward": "162040000000000000000"
+                },
+                {
+                    "grade": "GRADE-3",
+                    "reward": "185190000000000000000"
+                },
+                {
+                    "grade": "GRADE-4",
+                    "reward": "208330000000000000000"
+                },
+                {
+                    "grade": "GRADE-5",
+                    "reward": "231480000000000000000"
+                },
+                {
+                    "grade": "GRADE-6",
+                    "reward": "254630000000000000000"
+                },
+                {
+                    "grade": "GRADE-7",
+                    "reward": "277780000000000000000"
+                },
+                {
+                    "grade": "GRADE-8",
+                    "reward": "300930000000000000000"
+                }
+            ]
+        },
+        {
+            "token": "YFI",
+            "grades": [
+                {
+                    "grade": "GRADE-0",
+                    "reward": "138890000000000000000"
+                },
+                {
+                    "grade": "GRADE-1",
+                    "reward": "69440000000000000000"
+                },
+                {
+                    "grade": "GRADE-2",
+                    "reward": "81020000000000000000"
+                },
+                {
+                    "grade": "GRADE-3",
+                    "reward": "92590000000000000000"
+                },
+                {
+                    "grade": "GRADE-4",
+                    "reward": "104170000000000000000"
+                },
+                {
+                    "grade": "GRADE-5",
+                    "reward": "115740000000000000000"
+                },
+                {
+                    "grade": "GRADE-6",
+                    "reward": "127310000000000000000"
+                },
+                {
+                    "grade": "GRADE-7",
+                    "reward": "138890000000000000000"
+                },
+                {
+                    "grade": "GRADE-8",
+                    "reward": "150460000000000000000"
+                }
+            ]
+        },
+        {
+            "token": "FOR",
+            "grades": [
+                {
+                    "grade": "GRADE-0",
+                    "reward": "4861110000000000000000"
+                },
+                {
+                    "grade": "GRADE-1",
+                    "reward": "2430560000000000000000"
+                },
+                {
+                    "grade": "GRADE-2",
+                    "reward": "2835650000000000000000"
+                },
+                {
+                    "grade": "GRADE-3",
+                    "reward": "3240740000000000000000"
+                },
+                {
+                    "grade": "GRADE-4",
+                    "reward": "3645830000000000000000"
+                },
+                {
+                    "grade": "GRADE-5",
+                    "reward": "4050930000000000000000"
+                },
+                {
+                    "grade": "GRADE-6",
+                    "reward": "4456020000000000000000"
+                },
+                {
+                    "grade": "GRADE-7",
+                    "reward": "4861110000000000000000"
+                },
+                {
+                    "grade": "GRADE-8",
+                    "reward": "5266200000000000000000"
+                }
+            ]
+        }
+    ],
+    "kun": "0x61c1987dafc0bf2f2bb7507409066ecc43b7419e",
+    "main": "0xFcBc8f6c37f4DeB014D3e30E5c1779EC8bd7d639",
+    "broker": "0x19E9554A875F0bf3e79910dA612b0C373Aea17C5",
+    "governance": ""
+}
